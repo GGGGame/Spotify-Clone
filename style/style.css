@@ -1,0 +1,136 @@
+body{margin: 0;}
+
+
+
+footer{
+    width: 100%;
+    position:fixed;
+    bottom:0;
+    left:0;
+    margin-bottom: 0;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    background: black;
+    box-sizing: border-box;
+}
+
+.footer-links {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    grid-column: 5/ 9;
+    grid-row: 2 / 4;
+   
+    
+}
+
+.footer-links > ul > li > a{
+    color: white;
+    text-decoration: none;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    font-size: 1rem;
+    
+}  
+ 
+
+.footer-links + li{
+   padding-top: 20px;
+}
+
+.footer-links > ul {
+    list-style-type: none;
+    
+   }
+
+.footer-links > ul > li > a:hover{
+    color: #1ed760;
+}
+    
+.footer-links-2 {
+    display: flex;
+    flex-wrap:wrap;
+    grid-column:4 /9;
+    grid-row: 6 ;
+    display: inline-block;
+    align-self: center;
+   
+    
+    
+    
+
+}
+.footer-links-2 > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+.footer-links-2 > a {
+    color: #919496;
+    font-size: 0.75rem;
+    font-weight: normal;
+    margin-right: 10px;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+}
+
+.spotify-logo{
+   fill: white;
+    width: 8rem;
+    grid-column: 4 / 5;
+    grid-row: 2;
+    margin: 0;
+    padding: 0;
+}
+
+.lang {
+    fill: white;
+    color: #919496;;
+    grid-column: 7 / 11;
+    grid-row: 6 ;
+    justify-self: end;
+    align-self:start;
+    
+}
+
+.lang > a{
+    text-decoration: none;
+    color: #919496;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    font-size: 0.73rem;
+}
+
+
+.lang-2{
+    color: white;
+    grid-column: 7 / 11;
+    grid-row: 6 ;
+    justify-self: end;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    align-self: center;
+}
+
+.lang-2 {
+    color: #919496;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    font-size: 0.73rem;
+    
+}
+
+ul{
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    color: #919496;
+    font-size: 0.75rem;
+    margin: 0;
+}
+
+.fontcolor > a:hover{
+   
+    color: #1ed760;
+   
+}
+
+.lang > a:hover{
+    color: #1ed760;
+}
+
