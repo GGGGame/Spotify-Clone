@@ -67,7 +67,7 @@ header {
     font-size: 17px;
     width: 100%;
     background-color: #fff;
-    background-image: url(/images/icon-search.svg);
+    background-image: url(./images/icon-search.svg);
     background-size: 20px;
     background-repeat: no-repeat;
     background-position: 95% 50%;
@@ -230,6 +230,10 @@ footer{
     font-weight: bold;
     justify-self: flex-end;
     align-self: end;
+}
+
+select > option{
+    color: black;
 }
 
 
