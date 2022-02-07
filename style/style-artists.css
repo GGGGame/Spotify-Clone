@@ -233,3 +233,47 @@ svg polyline {
     fill: none;
     stroke: white;
 }
+
+/* Artists */
+
+.artist-block {
+    background-color: rgb(24, 24, 24);
+    color: white;
+
+}
+
+.artist-container {
+    display: flex;
+    padding: 24px 40px 80px;
+}
+
+.artist-with {
+    width: 40%;
+}
+
+.artist-with a {
+    font-size: 16px;
+    line-height: 35px;
+    text-transform: none;
+    letter-spacing: normal;
+    padding: 8px 0;
+    color: #575757;
+    font-weight: bold;
+}
+
+.artist-image {
+    padding-block: 24px;
+    padding-inline: 40px;  
+    display: block;
+}
+
+.artist-image img {
+    inline-size: 100%;
+    block-size: 100%;
+    object-fit: cover;
+    height: 620px;
+}
+
+.artist-quote {
+    padding-top: 40px;
+}
