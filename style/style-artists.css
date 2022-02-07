@@ -1,6 +1,9 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: circular-spotify-arabic, circular-spotify-hebrew, circular-spotify-cyrillic, spotify-circular, Helvetica, Arial, sans-serif;
+    font-weight: 400;
 }
 
 :root {
@@ -9,8 +12,16 @@
     --nav-font-weight-700: 700;
 }
 
+/* navbar */
+
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
 nav {
-    font-family: circular-spotify-arabic, circular-spotify-hebrew, circular-spotify-cyrillic, spotify-circular, Helvetica, Arial, sans-serif;
     padding: 20px 40px;
     display: grid;
     grid-template-areas: 'navbar-svg navbar-center navbar-right';
@@ -94,7 +105,6 @@ a {
     color: var(--nav-center-color);
 }
 
-/* */
 .navbar-right > li a, 
 .navbar-center > li a:hover {
     color: var(--color-white);
@@ -106,4 +116,120 @@ a {
 
 .navbar-right > li:hover {
     transform: scale(1.04);
+}
+
+/* base-section */
+
+.base {
+    color: white;
+}
+
+.base a {
+    color: white;
+}
+
+.section-cl1 {
+    display: flex;
+    flex-direction: column;
+    inline-size: 100%;
+    block-size: 100%;
+    align-items: center;
+    background-color: rgb(65, 0, 245);
+}
+
+.section-cl2 {
+    position: relative;
+    block-size: 1026px;
+}
+
+.section-cl3 {
+    max-inline-size: 1700px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-flow: row wrap;
+    -webkit-box-pack: justify;
+    inline-size: 100%;
+}
+
+.section-paragraph {
+    inline-size: 40%;
+    padding-inline-start: 0px;
+    inline-size: 50%;
+    margin-block: auto;
+    padding-block-start: 80px;
+    inline-size: 40%;
+}
+
+.section-image {
+    inline-size: 40%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    block-size: fit-content;
+    align-self: center;
+    max-block-size: 616px;
+    max-inline-size: 616px;
+    margin-block-start: 80px;
+}
+
+.section-image img {
+    width: 600px;
+}
+
+.section-paragraph h4 {
+    padding-block-end: 32px;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.section-paragraph h6 {
+    padding-block-end: 16px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-align: start;
+}
+
+.fan-link {
+    padding-block-start: 32px;
+}
+
+.fan-link > h1 {
+    font-size: clamp(32px, 5vw, 94px);
+    line-height: clamp(54px, 5vw, 104px);
+    padding-block-end: 32px;
+    max-inline-size: 684px;
+    font-weight: 600;
+}
+
+.svg-link {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: none;
+    letter-spacing: normal;
+    font-weight: 700;
+    box-sizing: border-box;
+}
+
+.svg-link svg{
+    padding-inline-start: 8px;
+    vertical-align: -7px;
+}
+
+/* SVG Arrow class */
+
+.JSta-D {
+    stroke-width: 1pt;
+}
+
+.Svg-ytk21e-0.JSta-D line{
+    
+    fill: none;
+    stroke: white;
+}
+
+svg polyline {
+    fill: none;
+    stroke: white;
 }
