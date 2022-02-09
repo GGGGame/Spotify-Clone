@@ -234,6 +234,110 @@ svg polyline {
     stroke: white;
 }
 
+.section-base-2 {
+    padding: 24px 40px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    min-block-size: 236px;
+}
+
+.base-2 {
+    padding-block: 24px;
+    padding-inline: 40px;
+    background-color: rgb(24, 24, 24);
+}
+
+.section-base-2> h1 {
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 700;
+    padding-top: 15px;
+    letter-spacing: normal;
+}
+
+.paragraph-base-2 {
+    padding-block: 8px;
+    margin-top: -15px;
+}
+
+.section-base-2 a {
+    background-color: white;
+    color: rgb(18, 18, 18);;
+    align-self: flex-end;
+    padding: 14px 32px;
+    border-radius: 500px;
+    margin-top: -30px;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: none;
+    letter-spacing: normal;
+    font-weight: 700;
+}
+
+.section-base-3 {
+    display: flex;
+    align-items: center;
+    background-color: rgb(180, 155, 200);
+    padding-block: 24px;
+    padding-inline: 40px;
+}
+
+.section-3-picture {
+    padding-block: 24px;
+    padding-inline: 40px;
+    align-self: flex-start;
+}
+
+.section-3-picture img {
+    width: 547px;
+    height: 547px;
+}
+
+.section-3-paragraph {
+    align-self: revert;
+    max-inline-size: 750px;
+    margin-inline-start: 7%;
+    padding-inline-start: 80px;
+    inline-size: 50%;
+    block-size: auto;
+    align-self: center;
+    margin-block: auto;
+}
+
+.section-3-paragraph > h1{
+    padding-block-end: 16px;
+    max-inline-size: 684px;
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 700;
+}
+
+.section-3-paragraph > h4 {
+    box-sizing: border-box;
+    padding-block: 16px 24px;
+    padding-inline: 0px;
+    margin-block: 0px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0px;
+}
+
+.section-3-paragraph > a {
+    color: rgb(180, 155, 200);
+    background-color: black;
+    padding-block-start: 16px;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: none;
+    letter-spacing: normal;
+    border-radius: 500px;
+    padding-block: 14px;
+    padding-inline: 32px;
+    font-weight: 700;
+}
+
 /* Artists */
 
 .artist-block {
