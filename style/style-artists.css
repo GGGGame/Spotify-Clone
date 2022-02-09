@@ -28,7 +28,7 @@ nav {
     background-color: rgb(65, 0, 245);
 }
 
-ul {
+nav ul {
     display: inline-flex;
 }
 
@@ -380,4 +380,111 @@ svg polyline {
 
 .artist-quote {
     padding-top: 40px;
+}
+
+.section-articoli {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 40px;
+    background-color: #dedede;
+    color: #181818;
+}
+
+.section-articoli section {
+    width: 50%;
+}
+
+.section-articoli-links a {
+    padding: 16px 0;
+    display: block;
+    display: flex;
+    align-items: center;
+}
+
+.section-articoli-links a, .section-articoli-links a:hover {
+    color: #181818;
+}
+
+svg {
+    margin-left: 5px;
+}
+
+svg polyline {
+    fill: none;
+    stroke: black;
+    margin-left: 10px;
+}
+
+footer {
+    background-color: black;
+    padding: 80px 0 50px;
+    color: white;
+}
+
+footer svg {
+    height: 40px;
+}
+
+.footer-container {
+    display: flex;
+}
+
+.logo-footer {
+    width: 25%;
+}
+.footer-container ul {
+    padding: 0 30px;  
+}
+.footer-container ul h3 {
+    margin: 20px 0;
+    font-size: 12px;
+    color: #919496;
+}
+.footer-container ul a, .footer-container ul a:hover {
+    color: #ffffffbf;
+    margin-bottom: 12px;
+    padding-top: 3px;
+    font-size: 16px;
+}
+.footer-container ul li {
+    margin-bottom: 12px;
+    padding-top: 3px;
+}
+.app-icons {
+    width: 25%;
+}
+footer a, footer a:hover, .footer-links {
+    color: #ffffffbf;
+    font-size: 12px;
+}
+.footer-links {
+    margin-top: 100px;
+}
+.footer-links p:first-child {
+    margin-left: calc(195px*2);
+    width: 585px;
+}
+.footer-links p:nth-child(2) {
+    float: right;
+    width: 360px;
+}
+.footer-links p {
+    display: inline;
+}
+
+.footer-links a {
+    padding: 12px 12px 12px 0;
+}
+
+
+
+.social-icons a svg {
+    fill: white;
+    background-color: #222326;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+.social-icons ul li {
+    display: inline-block;
 }
