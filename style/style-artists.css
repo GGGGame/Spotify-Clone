@@ -476,13 +476,19 @@ footer a, footer a:hover, .footer-links {
     padding: 12px 12px 12px 0;
 }
 
+.hyperlink-svg {
+    margin-left: 15px;
+    display: flex;
+    background: #222326;
+    padding: 15px!important;
+    border-radius: 30px;
+}
 
-
-.social-icons a svg {
+.social-icon {
+    margin: 0;
+    width: 25px;
     fill: white;
-    background-color: #222326;
-    border-radius: 100%;
-    padding: 20px;
+    block-size: 24px;
 }
 
 .social-icons ul li {
